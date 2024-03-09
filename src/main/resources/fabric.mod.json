@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "save-animals",
+	"version": "1.0.0",
+	"name": "SaveAnimals",
+	"description": "Removes some damage sources to animals, and named animals never take damage.",
+	"authors": [
+		"Kim-Lan"
+	],
+	"contact": {
+		"homepage": "https://github.com/Kim-Lan",
+		"sources": ""
+	},
+	"license": "",
+	"icon": "assets/save-animals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kimlan.saveanimals.SaveAnimals"
+		]
+	},
+	"mixins": [
+		"save-animals.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
