@@ -16,6 +16,9 @@ abstract class AllayEntityMixin extends Entity {
 
     @Override
     public boolean isInvulnerableTo(DamageSource damageSource) {
-        return this.hasCustomName() && !(this instanceof Monster);
+        if (this.hasCustomName() && !(this instanceof Monster)) {
+            return true;
+        }
+        return super.isInvulnerableTo(damageSource);
     }
 }

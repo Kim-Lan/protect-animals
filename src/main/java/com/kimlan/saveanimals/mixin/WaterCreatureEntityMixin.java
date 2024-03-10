@@ -17,6 +17,9 @@ abstract class WaterCreatureEntityMixin extends Entity {
 
     @Override
     public boolean isInvulnerableTo(DamageSource damageSource) {
-        return damageSource.isOf(DamageTypes.DROWN) || (this.hasCustomName() && !(this instanceof Monster));
+        if (damageSource.isOf(DamageTypes.DROWN) ||  (this.hasCustomName() && !(this instanceof Monster))) {
+            return true;
+        }
+        return super.isInvulnerableTo(damageSource);
     }
 }
