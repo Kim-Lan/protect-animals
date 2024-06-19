@@ -1,4 +1,4 @@
-package com.kimlan.saveanimals.mixin;
+package com.kimlan.protectanimals.mixin;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.damage.DamageSource;
