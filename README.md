@@ -1,1 +1,1 @@
-# save-animals
+# Protect Animals - Minecraft Java mod

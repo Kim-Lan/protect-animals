@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "save-animals",
-	"version": "1.0.0",
-	"name": "SaveAnimals",
+	"id": "protect-animals",
+	"version": "1.1.0",
+	"name": "ProtectAnimals",
 	"description": "Removes some damage sources to animals, and named animals never take damage.",
 	"authors": [
 		"Kim-Lan"
@@ -12,20 +12,20 @@
 		"sources": ""
 	},
 	"license": "",
-	"icon": "assets/save-animals/icon.png",
+	"icon": "assets/protect-animals/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.kimlan.saveanimals.SaveAnimals"
+			"com.kimlan.protectanimals.ProtectAnimals"
 		]
 	},
 	"mixins": [
-		"save-animals.mixins.json"
+		"protect-animals.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.7",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
