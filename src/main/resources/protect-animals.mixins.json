@@ -7,7 +7,7 @@
 		"AnimalEntityMixin",
 		"AxolotlEntityMixin",
 		"BeeEntityMixin",
-		"WaterCreatureEntityMixin"
+		"WaterAnimalEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
