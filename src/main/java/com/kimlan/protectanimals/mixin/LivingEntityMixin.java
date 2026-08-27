@@ -5,7 +5,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.animal.axolotl.Axolotl;
 import net.minecraft.world.entity.animal.bee.Bee;
@@ -23,9 +23,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.Locale;
 
-@Mixin(LivingEntity.class)
-abstract class LivingEntityMixin extends Entity {
-    public LivingEntityMixin(EntityType<?> type, Level level) { super(type, level); }
+@Mixin(Mob.class)
+abstract class MobMixin extends Entity {
+    public MobMixin(EntityType<?> type, Level level) { super(type, level); }
 
     @ModifyReturnValue(
         method = "isInvulnerableTo",
