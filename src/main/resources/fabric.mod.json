@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/Kim-Lan",
 		"sources": "https://github.com/Kim-Lan/protect-animals"
 	},
-	"license": "MIT",
+	"license": "ARR",
 	"icon": "assets/protect-animals/icon.png",
 	"environment": "*",
 	"entrypoints": {
