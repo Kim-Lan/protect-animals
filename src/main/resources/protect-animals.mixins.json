@@ -3,8 +3,8 @@
 	"package": "com.kimlan.protectanimals.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"PigMixin",
-		"LivingEntityMixin"
+		"LivingEntityMixin",
+		"PigMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
