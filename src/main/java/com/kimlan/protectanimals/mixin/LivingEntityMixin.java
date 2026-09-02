@@ -43,9 +43,9 @@ abstract class LivingEntityMixin extends Entity {
     }
 
     @Inject(
-            method = "isInvulnerableTo",
-            at = @At("HEAD"),
-            cancellable = true
+        method = "isInvulnerableTo",
+        at = @At("HEAD"),
+        cancellable = true
     )
     private void injectIsInvulnerableTo(ServerLevel level, DamageSource damageSource, CallbackInfoReturnable<Boolean> cir) {
         boolean isWaterAnimal = (Object) this instanceof AgeableWaterCreature
