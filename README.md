@@ -9,6 +9,8 @@ Named animals never take damage. Also removes some damage sources to animals (li
 - Striders do not take damage from water.
 - Named pigs (except those named `killable`) do not become zombified piglins when struck by lightning.
 
+---
+
 ## VERSION 1.21.4 AND EARLIER:
 - Fish are not protected. (Fish are protected in later versions.)
 - Bees ONLY take damage from players and other mobs.
