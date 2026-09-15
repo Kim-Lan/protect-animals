@@ -8,10 +8,11 @@
 		"Kim-Lan"
 	],
 	"contact": {
-		"homepage": "https://github.com/Kim-Lan",
-		"sources": "https://github.com/Kim-Lan/protect-animals"
+		"homepage": "https://modrinth.com/mod/protect-animals",
+		"sources": "https://github.com/Kim-Lan/protect-animals",
+		"issues": "https://github.com/Kim-Lan/protect-animals/issues"
 	},
-	"license": "MIT",
+	"license": "ARR",
 	"icon": "assets/protect-animals/icon.png",
 	"environment": "*",
 	"entrypoints": {
