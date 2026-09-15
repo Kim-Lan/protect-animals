@@ -8,8 +8,9 @@
 		"Kim-Lan"
 	],
 	"contact": {
-		"homepage": "https://github.com/Kim-Lan",
-		"sources": "https://github.com/Kim-Lan/protect-animals"
+		"homepage": "https://modrinth.com/mod/protect-animals",
+		"sources": "https://github.com/Kim-Lan/protect-animals",
+		"issues": "https://github.com/Kim-Lan/protect-animals/issues"
 	},
 	"license": "ARR",
 	"icon": "assets/protect-animals/icon.png",
@@ -23,8 +24,8 @@
 		"protect-animals.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
