@@ -6,6 +6,7 @@ Named animals never take damage. Also removes some damage sources to animals (li
 - Make animals damageable again by naming them `killable`.
 - Bees and dolphins do not drown.
 - Water animals (squid, axolotl, nautilus) do not take damage when out of water.
+- Striders do not take damage from water.
 - Named pigs (except those named `killable`) do not become zombified piglins when struck by lightning.
 
 ## VERSION 1.21.4 AND EARLIER:
